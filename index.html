@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+  <title>The Lakshwadeep Islands</title>
+</head>
+<body>
+  <section id="showcase">
+    <header>
+      <h2 class="logo">Lakshawadeep Islands</h2>
+      <div class="toggle"></div>
+    </header>
+    <div class="overlay"></div>
+    <div class="text">
+      <h3>Lakshwadeep Islands </h2> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <div class="banner-btn">
+      <a href="signUp.html"><span></span>Know more &#x203A;</a>
+      <a href="#"><span></span>About me &#x203A;</a>
+    </div>
+  </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/" target="_"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://www.twitter.com/" target="_"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/" target="_"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+    </div>
+  </section>
+    <section id="about">
+      <div class="title-text">
+        <p>About</p>
+        <h1>Lakshwadeep Islands places to visit</h1>
+      </div>
+    </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="signUp.html">About</a></li>
+      <li><a href="about.html">PLaces to visit</a></li>
+      <li><a href="people.html">About the People</a></li>
+      <li><a href="#">Contact me</a></li>
+    </ul>
+  </div>
+
+
+
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('#showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
